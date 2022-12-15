@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const WelcomeContainer = styled.div`
+const ContactInfoContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,31 +14,31 @@ const WelcomeContainer = styled.div`
     gap: 50px;
 `;
 
-const WelcomeInfo= styled.div`
+const ContactInfo= styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 100px;
     padding: 30px;
 `;
 
-const WelcomeTitle = styled.h1`
-    color: red;
+const ContactDetails = styled.div`
     font-size: 40px;
+    margin-bottom: 40px;
+    background: lightgray;
+    border-radius: 10px;
+    border: 1px solid gray;
 `;
 
 const WelcomeText = styled.p`
     font-size: 25px;
-    color: green;
-    text-align: center;
 `;
 
-const WelcomeImage = styled.img`
-    width: 600px;
+const ContactImage = styled.img`
+    height: 400px;
     opacity: 0.85;
     border-radius: 10px;
     padding: 20px;
 `;
 
-export {WelcomeContainer,WelcomeInfo,WelcomeTitle,WelcomeText,WelcomeImage};
+export {ContactInfoContainer,ContactInfo,ContactDetails,WelcomeText,ContactImage};
