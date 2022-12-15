@@ -1,13 +1,14 @@
+
 import { MenuContainer, MenuPage } from "./styles";
 
 
 function Pages(){
     return(
         <MenuContainer>
-            <MenuPage>Home</MenuPage>
-            <MenuPage>About</MenuPage>
-            <MenuPage>Galerie</MenuPage>
-            <MenuPage>Contacts</MenuPage>
+            <MenuPage to="/">Inicio</MenuPage>
+            <MenuPage to="/sobre">Sobre</MenuPage>
+            <MenuPage to="/galeria">Galeria</MenuPage>
+            <MenuPage to="/contacto">Contacto</MenuPage>
         </MenuContainer>
     )
 }

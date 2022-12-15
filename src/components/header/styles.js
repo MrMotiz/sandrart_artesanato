@@ -5,7 +5,7 @@ const NavigationBar = styled.nav`
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background: green;
+    background: #e75d9d;
     height: 120px;
 `;
 
