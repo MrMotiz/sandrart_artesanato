@@ -1,12 +1,8 @@
-import {LatestWorks} from "../components";
+import {AllWorks} from "../components";
 
 function Gallery(){
     return(
-        <>
-        <LatestWorks/>
-        <LatestWorks/>
-        <LatestWorks/>
-        </>
+        <AllWorks/>
     )
 }
 

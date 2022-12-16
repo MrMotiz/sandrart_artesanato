@@ -5,8 +5,7 @@ function LatestWorks(){
     return(
         <LatestWorksContainer>
             <LatestWorksTitle>Trabalho mais recentes</LatestWorksTitle>
-            <LatestWorksGrid>
-                
+            <LatestWorksGrid>  
             <WorkCard>
                 <img src="https://scontent.fopo5-2.fna.fbcdn.net/v/t39.30808-6/311505322_475536501263884_4714399610333470462_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=DZ-F1GpaC-gAX-VA8M1&_nc_ht=scontent.fopo5-2.fna&oh=00_AfD5gpKMnk-_SinHTLrq7E1qHHotR2n9SiKXPIgdUrlmNw&oe=63A24539" alt="" />
                 <h1>Quadro nascimento</h1>
