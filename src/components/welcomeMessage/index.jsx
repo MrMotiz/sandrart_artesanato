@@ -6,8 +6,8 @@ function WelcomeMessage(){
         <WelcomeContainer>
             <WelcomeInfo>
             <WelcomeTitle>Welcome to SandrArt</WelcomeTitle>
-            <WelcomeText>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium fugiat officiis minima modi, eius magnam? 
-                <br/> Voluptas at recusandae, eaque quidem nam totam officia quos est, earum provident dolorem accusantium necessitatibus!</WelcomeText>
+            <WelcomeText>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                <br/> Accusantium fugiat officiis minima modi, eius magnam? </WelcomeText>
             </WelcomeInfo>
             <WelcomeImage src={coverImg}/>
         </WelcomeContainer>

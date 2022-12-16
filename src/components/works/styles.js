@@ -11,7 +11,12 @@ const WorkCardContainer = styled.div`
     img{
         height: 100%;
         width: 100%;
+        transition:transform 0.25s ease;
     }
+    img:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
+}
     
 `;
 

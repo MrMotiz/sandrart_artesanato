@@ -7,11 +7,11 @@ const WelcomeContainer = styled.div`
     width: 90%;
     height: 500px;
     padding: 10px;
-    margin: 5% 5%;
-    border: 1px solid gray;
+    margin: 5% auto;
     border-radius: 15px;
-    background: beige;
-    gap: 50px;
+    background: #eaf2d7;
+    box-shadow: 5px 5px 10px gray;
+    gap: 40px;
 `;
 
 const WelcomeInfo= styled.div`
@@ -24,13 +24,13 @@ const WelcomeInfo= styled.div`
 `;
 
 const WelcomeTitle = styled.h1`
-    color: red;
+    color: #D34F73;
     font-size: 40px;
 `;
 
 const WelcomeText = styled.p`
     font-size: 25px;
-    color: green;
+    color: #e75d9d;
     text-align: center;
 `;
 
