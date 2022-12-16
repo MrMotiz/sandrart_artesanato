@@ -1,10 +1,10 @@
-import {WelcomeMessage} from "../components/welcomeMessage";
+import {WelcomeMessage, LatestWorks} from "../components";
 
 function Home(){
     return(
         <>
         <WelcomeMessage/>
-        <WelcomeMessage/>
+        <LatestWorks/>
         </>
     )
 }

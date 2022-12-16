@@ -1,8 +1,12 @@
-import {WelcomeMessage} from "../components/welcomeMessage";
+import {LatestWorks} from "../components";
 
 function Gallery(){
     return(
-        <WelcomeMessage/>
+        <>
+        <LatestWorks/>
+        <LatestWorks/>
+        <LatestWorks/>
+        </>
     )
 }
 
