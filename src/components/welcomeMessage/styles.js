@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const WelcomeContainer = styled.div`
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     width: 90%;
     height: 500px;
@@ -10,8 +10,8 @@ const WelcomeContainer = styled.div`
     margin: 5% auto;
     border-radius: 15px;
     background: #eaf2d7;
-    box-shadow: 5px 5px 10px gray;
-    gap: 40px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+    gap: 15%;
 `;
 
 const WelcomeInfo= styled.div`
@@ -21,16 +21,15 @@ const WelcomeInfo= styled.div`
     align-items: center;
     gap: 100px;
     padding: 30px;
+    color: ${({ theme }) => theme.secondaryColor}
 `;
 
 const WelcomeTitle = styled.h1`
-    color: #D34F73;
     font-size: 40px;
 `;
 
 const WelcomeText = styled.p`
     font-size: 25px;
-    color: #e75d9d;
     text-align: center;
 `;
 

@@ -5,7 +5,7 @@ const NavigationBar = styled.nav`
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background: #e75d9d;
+    background: ${({ theme }) => theme.mainColor};
     height: 120px;
 `;
 

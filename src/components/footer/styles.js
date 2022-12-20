@@ -10,8 +10,9 @@ const FooterContainer = styled.div`
     bottom: 0;
     left: 0;
     right: 0;
-    background: #e75d9d;
+    background: ${({ theme }) => theme.mainColor};
     z-index: 3;
+    margin-top: 50px;
 `;
 
 const FooterTitle = styled.h1`
