@@ -1,11 +1,11 @@
-import {WelcomeMessage, LatestWorks, FollowNetworks} from "../components";
+import {WelcomeMessage, LatestWorks, Comments} from "../components";
 
 function Home(){
     return(
         <>
         <WelcomeMessage/>
         <LatestWorks/>
-        <FollowNetworks/>
+        <Comments/>
         </>
     )
 }

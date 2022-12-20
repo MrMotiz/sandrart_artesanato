@@ -4,9 +4,9 @@ import {Footer} from "./footer";
 import {ContactsInfo} from "./contacts";
 import {LatestWorks} from "./latestWorks";
 import {AllWorks} from "./allWorks";
-import {FollowNetworks} from "./follow";
+import {Comments} from "./comments";
 
 
 
 
-export {Header, WelcomeMessage,LatestWorks, AllWorks,FollowNetworks, ContactsInfo, Footer};
+export {Header, WelcomeMessage,LatestWorks, AllWorks,Comments, ContactsInfo, Footer};
