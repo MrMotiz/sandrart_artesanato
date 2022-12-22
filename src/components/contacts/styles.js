@@ -7,31 +7,36 @@ const ContactInfoContainer = styled.div`
     width: 90%;
     height: 500px;
     padding: 10px;
-    margin: 5% 5%;
-    border: 1px solid gray;
+    margin: 7.5% 5%;
     border-radius: 15px;
-    background: beige;
-    gap: 50px;
+    background: ${({ theme }) => theme["light-red"]};
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
 `;
 
 const ContactInfo= styled.div`
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 30px;
+    gap: 50px;
 `;
 
 const ContactDetails = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
     font-size: 40px;
-    margin-bottom: 40px;
-    background: lightgray;
+    background: rgba(245, 245, 245, 0.2);
     border-radius: 10px;
-    border: 1px solid gray;
+    width: 500px;
+    height: 150px;
 `;
 
 const WelcomeText = styled.p`
     font-size: 25px;
+    margin: 5px;
+    color: ${({ theme }) => theme.mainColor};
 `;
 
 const ContactImage = styled.img`

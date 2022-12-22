@@ -9,9 +9,9 @@ const WelcomeContainer = styled.div`
     padding: 10px;
     margin: 5% auto;
     border-radius: 15px;
-    background: #eaf2d7;
+    background: ${({ theme }) => theme["light-red"]};
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
-    gap: 15%;
+    gap: 10%;
 `;
 
 const WelcomeInfo= styled.div`
@@ -21,7 +21,8 @@ const WelcomeInfo= styled.div`
     align-items: center;
     gap: 100px;
     padding: 30px;
-    color: ${({ theme }) => theme.secondaryColor}
+    color: ${({ theme }) => theme.secondaryColor};
+    margin-bottom: 50px;
 `;
 
 const WelcomeTitle = styled.h1`

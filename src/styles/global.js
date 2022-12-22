@@ -9,11 +9,10 @@ const GlobalStyle = createGlobalStyle`
 
  :focus {
   outline: 0;
-  box-shadow: 0 0 0 2px ${({ theme }) => theme['blue-100']};
  }
 
  body {
-  background: ${({ theme }) => theme.backGroundColor};
+  background: ${({ theme }) => theme.backgroundColor};
   color: ${({ theme }) => theme.black};
   -webkit-font-smoothing: antialiased;
  }

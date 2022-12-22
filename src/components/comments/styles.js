@@ -7,12 +7,13 @@ const CommentsSection = styled.section`
     text-align: left;
     height: 200px;
     width: 100%;
-    background: purple;
+    background: ${({ theme }) => theme["light-red"]};
 `;
 
 const CommentsSectionTitle= styled.h1`
     margin: 10px;
-    color: ${({ theme }) => theme.secondaryColor}
+    color: ${({ theme }) => theme.secondaryColor};
+    color: #DD116A;
 `;
 
 const CommentContainer = styled.div`
@@ -24,6 +25,7 @@ const CommentContainer = styled.div`
     height:150px;
     width: 500px;
     border-radius: 20px;
+    color: ${({ theme }) => theme["white-purple"]};
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
 `;
 const UserInfo = styled.div`
@@ -48,7 +50,7 @@ const Username = styled.h3`
 	top: 0;
 	font-size: 15px;
 	width: 100px;
-	color: lightgray;
+	color: ${({ theme }) => theme["white-purple"]};
 `;
 
 const CommentInfo= styled.div`
@@ -62,7 +64,8 @@ const CommentTitle = styled.h1`
 
 const CommentText = styled.p`
 		font-size: 15px;
-		color: lightgray;
+		color: ${({ theme }) => theme["white-purple"]};
+        padding: 10px 0px;
     `;
 
 export {CommentsSection ,CommentsSectionTitle,CommentContainer, UserInfo , UserPicture,Username,CommentInfo, CommentTitle, CommentText};

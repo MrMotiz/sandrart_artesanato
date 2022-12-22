@@ -9,14 +9,13 @@ function ContactsInfo(){
         <ContactInfoContainer>
             <ContactInfo>
                 <ContactDetails>
-
-            <WelcomeText><BsTelephoneFill/> (+351)912345678</WelcomeText>
-            <WelcomeText>Segunda a Sexta, 9horas até ás 18horas</WelcomeText>
+                    <WelcomeText><BsTelephoneFill/> (+351)919 979 478</WelcomeText>
+                    <WelcomeText>Segunda a Sexta</WelcomeText>
+                    <WelcomeText>9horas até ás 18horas</WelcomeText>
                 </ContactDetails>
-            <ContactDetails>
-            <WelcomeText><IoMdMail/> example@example.pt</WelcomeText>
-            <WelcomeText>Segunda a Sexta, 9horas até ás 18horas</WelcomeText>
-            </ContactDetails>
+                <ContactDetails>
+                    <WelcomeText><IoMdMail/> Sandrart.artesanato@gmail.com</WelcomeText>
+                </ContactDetails>
             </ContactInfo>
             <ContactImage src={contactImg}/>
         </ContactInfoContainer>

@@ -11,13 +11,15 @@ const FooterContainer = styled.div`
     left: 0;
     right: 0;
     background: ${({ theme }) => theme.mainColor};
+    color: ${({ theme }) => theme["white-purple"]};
     z-index: 3;
     margin-top: 50px;
+    padding: 10px;
+    gap: 10px;
 `;
 
 const FooterTitle = styled.h1`
     font-size: 20px;
-    color: white;
 `;
 
 const FooterText = styled.p`
@@ -30,7 +32,6 @@ const FooterIconsContainer = styled.div`
     display: flex;
     justify-content: space-around;
     font-size: 25px;
-    color: white;
 `;
 
 export {FooterContainer, FooterTitle, FooterText, FooterIconsContainer};

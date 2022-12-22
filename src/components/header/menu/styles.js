@@ -8,14 +8,14 @@ const MenuContainer=styled.ul`
     gap: 10%;
     margin: 10px 20px;
     width: 500px;
-`;
+    `;
 
 const MenuPage=styled(Link)`
     list-style:none;
     font-size: 25px;
-    color: #fff;
     cursor: pointer;
     font-weight: bold;
     text-decoration: none;
+    color: ${({ theme }) => theme["white-purple"]};
 `;
 export{MenuContainer, MenuPage};

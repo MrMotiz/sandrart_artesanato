@@ -1,9 +1,14 @@
 const DEFAULT_THEME = {
 	"mainColor": "#BC55D9",
     "secondaryColor": "#660273",
-	backGroundColor:'#DFB3F2',
+	backgroundColor:'#DFB3F2',
+
     white: '#ffffff',
-	'white-100': '#F5F5F5',
+	"white-purple": "#fae0e4",
+	"white-pink": "#FAB3D2",
+	"white-blue-purple": "#CBB6F6",
+
+	"light-red": "#F580B3",
 
 	black: '#000000',
 

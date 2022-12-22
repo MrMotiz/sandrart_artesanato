@@ -7,6 +7,7 @@ const NavigationBar = styled.nav`
     padding: 10px 20px;
     background: ${({ theme }) => theme.mainColor};
     height: 120px;
+    
 `;
 
 export {NavigationBar};
