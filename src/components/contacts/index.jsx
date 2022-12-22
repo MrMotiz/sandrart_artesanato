@@ -9,9 +9,8 @@ function ContactsInfo(){
         <ContactInfoContainer>
             <ContactInfo>
                 <ContactDetails>
-                    <WelcomeText><BsTelephoneFill/> (+351)919 979 478</WelcomeText>
-                    <WelcomeText>Segunda a Sexta</WelcomeText>
-                    <WelcomeText>9horas até ás 18horas</WelcomeText>
+                    <WelcomeText><BsTelephoneFill/> (+351) 919 979 478</WelcomeText>
+                    <WelcomeText>Segunda a Sexta - 10:00 até ás 18:00</WelcomeText>
                 </ContactDetails>
                 <ContactDetails>
                     <WelcomeText><IoMdMail/> Sandrart.artesanato@gmail.com</WelcomeText>

@@ -12,7 +12,7 @@ const GalleryContainer= styled.section`
     margin: 10px auto;
     padding: 20px;
     border-radius: 20px;
-    gap: 20px;
+    gap: 30px;
 `;
 
 export {GalleryContainer};

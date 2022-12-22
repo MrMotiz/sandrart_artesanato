@@ -36,7 +36,7 @@ const ContactDetails = styled.div`
 const WelcomeText = styled.p`
     font-size: 25px;
     margin: 5px;
-    color: ${({ theme }) => theme.mainColor};
+    color: ${({ theme }) => theme.secondaryColor};
 `;
 
 const ContactImage = styled.img`

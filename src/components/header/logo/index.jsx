@@ -3,7 +3,9 @@ import {Logotype} from "./styles";
 
 function Logo(){
     return (
-        <Logotype src={MainLogo} alt="Logo Sandart"/>
+        <Logotype href="/">
+            <img src={MainLogo} alt="Logo Sandart"/>
+        </Logotype> 
     );
 }
 

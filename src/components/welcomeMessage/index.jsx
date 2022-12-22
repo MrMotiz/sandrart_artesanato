@@ -5,9 +5,8 @@ function WelcomeMessage(){
     return (
         <WelcomeContainer>
             <WelcomeInfo>
-            <WelcomeTitle>Welcome to SandrArt</WelcomeTitle>
-            <WelcomeText>Olá, Bem vindos a Sandrart.<br/>
-Aqui pode encontrar os trabalhos feitos à mão por mim.<br/>
+            <WelcomeTitle>Bem vindos a Sandrart</WelcomeTitle>
+            <WelcomeText> Aqui pode encontrar os trabalhos feitos à mão por mim.<br/>
 Inspire se e encomende o seu boneco personalizado!</WelcomeText>
             </WelcomeInfo>
             <WelcomeImage src={coverImg}/>
