@@ -12,7 +12,8 @@ const LatestWorksGrid = styled.div`
     justify-content: center;
     align-items: center;
     height: 350px;
-    gap: 50px;
+    margin: 10px;
+    gap: 40px;
     `;
 
 const LatestWorksTitle = styled.h1`

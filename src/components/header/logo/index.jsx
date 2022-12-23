@@ -1,4 +1,4 @@
-import MainLogo from "../../../assets/logo.jpg";
+import MainLogo from "../../../utils/assets/logo.jpg";
 import {Logotype} from "./styles";
 
 function Logo(){

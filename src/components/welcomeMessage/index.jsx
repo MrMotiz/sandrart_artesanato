@@ -1,5 +1,5 @@
 import {WelcomeContainer,WelcomeInfo,WelcomeTitle,WelcomeText, WelcomeImage } from "./styles";
-import coverImg from "../../assets/coverImg.png"
+import coverImg from "../../utils/assets/coverImg.png"
 
 function WelcomeMessage(){
     return (

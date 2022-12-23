@@ -6,7 +6,7 @@ const MenuContainer=styled.ul`
     justify-content: center;
     align-items: center;
     gap: 10%;
-    margin: 10px 20px;
+    margin: 10px 0px;
     width: 500px;
     `;
 

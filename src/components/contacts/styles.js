@@ -15,6 +15,7 @@ const ContactInfoContainer = styled.div`
 
 const ContactInfo= styled.div`
     display: flex;
+    flex-direction: column;
     padding: 30px;
     gap: 50px;
 `;

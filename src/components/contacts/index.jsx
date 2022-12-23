@@ -1,7 +1,7 @@
 import {BsTelephoneFill} from "react-icons/bs";
 import {IoMdMail} from "react-icons/io";
 import {ContactInfoContainer,ContactInfo,ContactDetails,WelcomeText,ContactImage } from "./styles";
-import contactImg from "../../assets/contactImg.png"
+import contactImg from "../../utils/assets/contactImg.png"
 
 
 function ContactsInfo(){

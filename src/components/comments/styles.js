@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const CommentsSection = styled.section`
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     text-align: left;
     height: 200px;
@@ -23,7 +23,7 @@ const CommentContainer = styled.div`
     text-align: left;
     background: rgba(245, 245, 245, 0.2);
     height:150px;
-    width: 500px;
+    width: 450px;
     border-radius: 20px;
     color: ${({ theme }) => theme["white-purple"]};
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
