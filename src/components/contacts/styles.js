@@ -18,7 +18,7 @@ const ContactInfo= styled.div`
     flex-direction: column;
     padding: 30px;
     gap: 50px;
-`;
+    `;
 
 const ContactDetails = styled.div`
     display: flex;
@@ -32,6 +32,7 @@ const ContactDetails = styled.div`
     border-radius: 10px;
     width: 500px;
     height: 150px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
 `;
 
 const WelcomeText = styled.p`
