@@ -13,6 +13,9 @@ const GalleryContainer= styled.section`
     padding: 20px;
     border-radius: 20px;
     gap: 50px;
+    @media (max-width: 767px) {
+        gap: 20px;
+    }
 `;
 
 export {GalleryContainer};

@@ -8,6 +8,10 @@ const NavigationBar = styled.nav`
     background: ${({ theme }) => theme.mainColor};
     height: 120px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+    @media (max-width: 768px) {
+       padding: 10px 10px;
+       height: 100px;
+    }
 `;
 
 export {NavigationBar};

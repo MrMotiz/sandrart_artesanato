@@ -20,11 +20,17 @@ const FooterContainer = styled.div`
 
 const FooterTitle = styled.h1`
     font-size: 20px;
+    @media (max-width: 768px) {
+       font-size: 17.5px;
+    }
 `;
 
 const FooterText = styled.p`
     color: purple;
     font-size: 16px;
+    @media (max-width: 768px) {
+       font-size: 14px;
+    }
 `;
 
 const FooterIconsContainer = styled.div`
@@ -32,6 +38,9 @@ const FooterIconsContainer = styled.div`
     display: flex;
     justify-content: space-around;
     font-size: 25px;
+    @media (max-width: 768px) {
+       font-size: 20px;
+    }
 `;
 
 export {FooterContainer, FooterTitle, FooterText, FooterIconsContainer};
