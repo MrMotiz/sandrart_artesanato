@@ -5,7 +5,7 @@ const ContactInfoContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    height: 500px;
+    max-height: 500px;
     padding: 10px;
     margin: 7.5% 5%;
     border-radius: 15px;
@@ -15,7 +15,7 @@ const ContactInfoContainer = styled.div`
         height: 300px;
         padding: 5px;
     }
-    @media (max-width: 500px) {
+    @media (max-width: 550px) {
         justify-content: center;
 }
 `;
@@ -41,12 +41,11 @@ const ContactDetails = styled.div`
     font-size: 40px;
     background: rgba(245, 245, 245, 0.2);
     border-radius: 10px;
-    max-width: 500px;
-    width: 100%;
+    min-width: 400px;
     height: 150px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
     @media (max-width: 768px) {
-        max-width: 400px;
+        min-width: 250px;
         height: 100px;
         gap: 10px;
 }
@@ -72,7 +71,7 @@ const ContactImage = styled.img`
         max-width:300px;
         
 }
-@media (max-width: 500px) {
+@media (max-width: 550px) {
         display: none;
 }
 `;
